@@ -1,0 +1,214 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    width: 970px;
+    background-color: rgb(36,80,118);
+}
+.header {
+    width: 970px;
+    background-color: rgb(36,80,118);
+}
+h1 {
+    color: white;
+    font-size: 15px;
+    margin-left: 743px;
+    padding-top: 20px;
+    width: fit-content;
+}
+.yellow {
+    color: rgb(149,143,48);
+    text-decoration: underline;
+}
+.black {
+    color: black;
+}
+.header img {
+    width: 400px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.searchForm {
+    width: 320px;
+    height: 60px;
+    background-color: rgb(68,68,68);
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px 0px 200px;
+}
+.searchForm form {
+    text-align: center;
+    padding: 10px;
+}
+.searchForm input{
+    text-align: center;
+    color: lightgray;
+}
+#searchBox {
+    height: 30px;
+    width: 200px;
+    vertical-align: middle;
+    box-shadow: 1px 1px lightgray;
+}
+#goBox {
+    height: 30px;
+    width: 40px;
+    vertical-align: middle;
+    background-color: rgb(36,80,118);
+    border-radius: 6px;
+    border: 2px solid rgb(149,161,171);
+    margin: 2px;
+    box-shadow: 2px 2px rgb(31,35,39);
+}
+
+.navbar{
+    background-color: rgb(65,123,173);
+    word-spacing: 30px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 3px 3px rgb(31,35,39);
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar ul {
+    padding: 10px 40px 10px 40px;
+    align-content: center;
+    list-style-type: none;
+}
+.navbar li {
+    color: rgb(197,209,218);
+    text-align: left;
+    display: inline-block;
+    font-size: 22px
+}
+.sidebar {
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+    vertical-align: top;
+}
+.sidebar li {
+    color:  rgb(149,143,48);
+    margin: 5px;
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+.sidebar a {
+    color: rgb(197,209,218);
+}
+.sidebar span {
+    margin-right: 6px;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+.paragraph {
+    width: 580px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.paragraph p{
+    color: rgb(197,209,218);
+    text-align: center;
+}
+.paragraph h2 {
+    color: rgb(149,143,48);
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.paragraph h3 {
+    color: rgb(197,209,218);
+    text-align: center;
+    margin-top: 15px;
+    font-weight: lighter;
+}
+.whitefooter{
+    background-color: white;
+    width: 970px;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.gettingStarted {
+    width: 400px;
+    display: inline-block;
+    border-top: 4px solid rgb(115,168,213);
+    text-align: center;
+    vertical-align: top;
+    margin-right: 6px;
+}
+.gettingStarted h4 {
+    padding: 5px;
+}
+.gettingStarted p {
+    width: 300px;
+    font-size: 15px;
+    padding: 5px;
+}
+.gettingStarted ul {
+    width: 280px;
+    font-size: 15px; 
+}
+.gettingStarted li {
+    list-style-type: square;
+}
+
+.gettingStarted a {
+    text-decoration: none;
+    color: rgb(154,191,225);
+}
+
+.applications {
+    width: 400px;
+    display: inline-block;
+    border-top: 4px solid rgb(115,168,213);
+    text-align: center;
+    vertical-align: top;
+    margin-left: 6px;
+}
+.applications h4 {
+    padding: 5px;
+}
+.applications p {
+    width: 300px;
+    font-size: 15px;
+    padding: 5px;
+}
+.applications ul {
+    width: 280px;
+    font-size: 15px; 
+}
+.applications li {
+    list-style-type: square;
+}
+.applications a {
+    text-decoration: none;
+    color: rgb(154,191,225);
+}
+.footer {
+    width: 970px;
+    background-color: rgb(40,93,137);
+    padding: 10px;
+    text-align: center;
+}
+.footer li {
+    display: inline-block;
+    padding: 15px;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(154,191,225);
+}
+.footer p {
+    font-size: 10px;
+    color: rgb(154,191,225);
+}
